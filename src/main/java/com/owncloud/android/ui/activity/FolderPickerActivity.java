@@ -298,7 +298,9 @@ public class FolderPickerActivity extends FileActivity implements FileFragment.C
         }
         default:
             retval = super.onOptionsItemSelected(item);
+            break;
         }
+
         return retval;
     }
 

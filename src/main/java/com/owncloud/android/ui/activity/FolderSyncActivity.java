@@ -393,9 +393,12 @@ public class FolderSyncActivity extends FileActivity implements FolderSyncAdapte
                 break;
             }
 
-            default:
+            default: {
                 result = super.onOptionsItemSelected(item);
+                break;
+            }
         }
+
         return result;
     }
 
